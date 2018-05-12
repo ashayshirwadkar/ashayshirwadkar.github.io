@@ -18,7 +18,7 @@
   <div id="mobile-menu-open" class="shadow-large">
     <i class="fa fa-bars" aria-hidden="true"></i>
   </div>
-  <!-- End #mobile-menu-toggle -->
+
   <header>
     <div id="mobile-menu-close">
       <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
@@ -41,7 +41,6 @@
       </li>
     </ul>
   </header>
-  <!-- End header -->
 
   <div id="lead">
     <div id="lead-content">
@@ -49,7 +48,6 @@
       <h2>Software Developer</h2>
       <a href="./docs/Resume-Fall17.pdf" class="btn-rounded-white">Download Resume</a>
     </div>
-    <!-- End #lead-content -->
 
     <div id="lead-overlay"></div>
 
@@ -58,9 +56,7 @@
         <i class="fa fa-chevron-down" aria-hidden="true"></i>
       </span>
     </div>
-    <!-- End #lead-down -->
   </div>
-  <!-- End #lead -->
 
   <!--
   <div id="about">
@@ -84,6 +80,14 @@
   <div id="experience" class="background-alt">
     <h2 class="heading">Experience</h2>
     <div id="experience-timeline">
+      <div data-date="Jan 2018 - Apr 2018">
+        <h3>Bespoke Metrics</h3>
+        <h4>Front-End Developer</h4>
+        <ul>
+          <li>Redesigned JSON based dynamically generated forms front-end using Redux-Form</li>
+          <li>Implemented new features and widgets using React, Redux, and Redux-Saga</li>
+        </ul>
+      </div>
       <div data-date="May 2017 – Aug 2017">
         <h3>BlueRover</h3>
         <h4>Full Stack Web Developer</h4>
@@ -96,7 +100,6 @@
       </div>
     </div>
   </div>
-  <!-- End #experience -->
 
   <div id="education">
     <h2 class="heading">Education</h2>
@@ -105,9 +108,7 @@
       <span class="education-date">Sept 2016 - Present</span>
       <h4>Candidate for Bachelor of Computer Science</h4>
     </div>
-    <!-- End .education-block -->
   </div>
-  <!-- End #education -->
 
   <div id="projects" class="background-alt">
     <h2 class="heading">Projects</h2>
@@ -115,36 +116,48 @@
       <div class="row">
         <div class="project shadow-large">
           <div class="project-title">
+            <h3>Konfik</h3>
+            <p>Go</p>
+          </div>
+          <div class="project-info">
+            <p>Konfik is a command line dotfiles manager written in go, designed to be managed with a simple folder structure and a single toml file.</p>
+            <a href="https://github.com/AntsEclipse/konfik">View Project</a>
+          </div>
+        </div>
+        <div class="project shadow-large">
+          <div class="project-title">
+            <h3>GoChat</h3>
+            <p>Go/gRPC/WebSocket</p>
+          </div>
+          <div class="project-info">
+            <p>GoChat is a Scalable chat platform written in Go, designed using microservices architecture with REST API and gRPC. It features high performance bidirectional communication with JavaScript based web client using WebSocket, as well as logging, searching, and analytics with Cassandra and Elasticsearch.</p>
+            <a href="https://github.com/AntsEclipse/gochat">View Project</a>
+          </div>
+        </div>
+        <div class="project shadow-large">
+          <div class="project-title">
             <h3>Spotify-Match</h3>
             <p>JavaScript/React/Electron</p>
           </div>
-          <!-- End .project-image -->
           <div class="project-info">
             <p>Spotify Match is an application that allows you to preview and discover new musics from spotify easily</p>
           </div>
-          <!-- End .project-info -->
         </div>
-        <!-- End .project -->
-
         <div class="project shadow-large">
           <div class="project-title">
             <h3>Flight Planner</h3>
             <p>C#/UWP</p>
           </div>
-          <!-- End .project-image -->
           <div class="project-info">
             <p>
               Flight Planner is a UWP application designed for flight simmer. It's a tool that provides valuable informations, such as current time, METAR at local and destionation airports, as well as route informations.
             </p>
             <a href="https://github.com/AntsEclipse/Flight-Planner-Windows">View Project</a>
           </div>
-          <!-- End .project-info -->
         </div>
-        <!-- End .project -->
       </div>
     </div>
   </div>
-  <!-- End #projects -->
 
   <div id="skills">
     <h2 class="heading">Skills</h2>
@@ -156,6 +169,7 @@
       <li>C</li>
       <li>C#</li>
       <li>Python</li>
+      <li>Go</li>
       <li>MongoDB</li>
       <li>MySQL</li>
       <li>Electron</li>
@@ -166,6 +180,7 @@
       <li>MQTT</li>
       <li>Protobuf</li>
       <li>WebSocket</li>
+      <li>Docker</li>
     </ul>
   </div>
   <!-- End #skills -->
@@ -175,7 +190,7 @@
       <div class="row">
         <div class="col-sm-5 copyright">
           <p>
-            Copyright &copy; 2017 Anthony Leung
+            Copyright &copy; 2018 Anthony Leung
           </p>
         </div>
         <div class="col-sm-2 top">
@@ -199,7 +214,6 @@
       </div>
     </div>
   </footer>
-  <!-- End footer -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/scripts.min.js"></script>
