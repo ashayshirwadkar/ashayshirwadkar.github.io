@@ -588,6 +588,10 @@ footer {
 	float: left
 }
 
+.project-imgsrc {
+    width: 300px
+}
+
 .project-info {
 	position: absolute;
 	top: 50%;
