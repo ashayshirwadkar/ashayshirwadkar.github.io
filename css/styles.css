@@ -456,8 +456,8 @@ footer {
 
 .vtimeline-content h3 {
 	font-size: 1.5em;
-	font-weight: 300;
-	color: #374054;
+	font-weight: 400;
+	color: #595555;
 	display: inline-block;
 	margin: 0
 }
@@ -465,18 +465,18 @@ footer {
 .vtimeline-content h4 {
 	font-size: 1.2em;
 	font-weight: 300;
-	color: #7e8890;
+	color: #595555;
 	margin: 0 0 15px 0
 }
 
 .vtimeline-content p {
-	color: #74808a;
+	color: #595555;
 	font-size: 0.9em;
 	margin: 0
 }
 
 .vtimeline-content li {
-	color: #74808a;
+	color: #595555;
 	font-size: 16px;
 	margin: 0
 }
@@ -598,7 +598,8 @@ footer {
 	transform: translateY(-50%);
 	margin-left: 300px;
 	padding: 25px;
-    text-align: justify
+    text-align: justify;
+    color: #595555;    
 }
 
 .project-info h3 {
@@ -610,7 +611,7 @@ footer {
 }
 
 .project-info p {
-	color: #74808a;
+	color: #595555;
 	margin: 0 0 15px 0;
 	font-size: 0.9em
 }
