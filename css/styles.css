@@ -580,7 +580,8 @@ footer {
 	margin: 0 auto 30px auto;
 	overflow: hidden;
 	background: #fff;
-	border-radius: 4px
+	border-radius: 4px;
+    padding: 25px
 }
 
 .project-image {
@@ -592,14 +593,16 @@ footer {
 	top: 50%;
 	transform: translateY(-50%);
 	margin-left: 300px;
-	padding: 15px
+	padding: 25px;
+    text-align: justify
 }
 
 .project-info h3 {
 	font-size: 1.5em;
 	font-weight: 300;
 	color: #374054;
-	margin: 0 0 15px 0
+	margin: 0 0 15px 0;
+    text-align: center
 }
 
 .project-info p {
@@ -864,6 +867,9 @@ footer {
 	.project-image {
 		display: none
 	}
+    .project-imgsrc {
+        width: 300px
+    }
 	.project-info {
 		position: relative;
 		margin: 0;
