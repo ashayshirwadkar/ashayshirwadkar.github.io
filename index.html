@@ -135,6 +135,11 @@
       <span class="education-date">Sept 2019 - Present</span>
       <h4>Masters of Computer Engineering <b>(GPA 4.0)</b></h4>
     </div>
+    <div class="education-block">
+      <h3>Maharashtra Institute of Technology, Pune, India</h3>
+      <span class="education-date">Mar 2010 - Mar 2014</span>
+      <h4>Bachlores of Engineering <b>(First class with Distinction)</b></h4>
+    </div>
   </div>
 
   <div id="projects" class="background-alt">
@@ -170,45 +175,26 @@
           </div>
           <!-- End .project-image -->
           <div class="project-info">
-            <h3>Acadamic Projects</h3>
+            <h3>Github</h3>
             <ul>
-              <li><b>Impact of GPU’s I-Buffer entries on performance</b></li>
+              <li><b><a href="https://github.com/ashayshirwadkar/myfs">MyFS (Simple Linux Kernel Filesystem)</a></b></li>
               <ul>
-                <li>Modified the execution pipeline of GPU simulator (GPGPU-Sim) to fetch and buffer more instructions in I-Buffer. Analysis showed 5% to 8% performance improvement on the most commonly executed operations.</li>
+                <li>A simple filesystem skeleton which registers a new filesystem, allocates superblock, and creates a file.</li>
               </ul>
-              <li><b>Non-Persistent heap in kernel</b></li>
+              <li><b><a href="https://github.com/ashayshirwadkar/ldd">Linux block device driver</a></b></li>
               <ul>
-                <li>Developed a Non-Persistent heap as a loadable kernel and a set of library functions that create a pseudodevice in the system and provides an interface for applications.</li>
-                <li>Gained hand-on experience on system memory management, locking, and multi-process programming in the kernel.</li>
+                <li>It is simple block device driver which caches every write IO. Once such THRESHOLD_IO_CNT of IO requests are buffered, those will be scheduled for actual flush to disk which will be handled workqueues. Slab pool is used for frequently allocated data structures.</li>
+              </ul>
+              <li><b><a href="https://github.com/ashayshirwadkar/s3_scripts">AWS S3 Scripts</a></b></li>
+              <ul>
+                <li>Shell scripts to access amazon S3 using both signature version 2 and 4.</li>
               </ul>
             </ul>
           </div>
           <!-- End .project-info -->
         </div>
         <!-- End .project -->
-		
-		<div class="project shadow-large">
-          <div class="project-image">
-            <img class="project-imgsrc" src="images/github.png" />
-          </div>
-          <!-- End .project-image -->
-          <div class="project-info">
-            <h3>Probability and Monte Carlo Techniques</h3>
-            <p>
-              (Nov 2017) The angular distribution of the electrons produced in muon decays
-              is described by some known distribution. This theory predicts the probability
-              for an event to occur as a function of the scattering angle and the muon polarization (P).
-			  The main purpose of this project is to estimate P. We do it in two different ways:
-              computing the basic statistical momentums and finding the most probable value of P
-              using conditional probabilities. Furthermore, we elaborate some tests in order to verify the
-		      process (Law of large numbers, Student's t-distribution, CLT and Pearson's chi-squared test).
-            </p>
-            <a href="https://github.com/aleixlopezpascual/aleixlopezpascual.github.io/tree/master/Projects/Probability%20and%20Monte%20Carlo%20Techniques">View Project</a>
-          </div>
-          <!-- End .project-info -->
-        </div>
-        <!-- End .project -->
-      </div>
+	  </div>
     </div>
   </div>
   <!-- End #projects -->
